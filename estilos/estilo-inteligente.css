@@ -26,7 +26,6 @@
 }
 
 .conteudo-item h2{
-    padding-bottom: 10px;
     font-size: 150%;
 }
 
@@ -56,7 +55,15 @@
     padding: 3px;
 }
 
-@media screen and (max-width: 680px){
+.topo{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 685px){
 
     .conteudo-item{
         width: 150px;
@@ -65,5 +72,8 @@
         border-radius: 20px;
         padding: 10px;
         margin: 10px 10px 10px 10px;
+    }
+    .conteudo-item h3{
+        font-size: 100%;
     }
 }
